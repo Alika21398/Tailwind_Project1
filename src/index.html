@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renax</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+  <body>
+    <header
+      class="relative bg-backcar h-[500px] lg:h-[100vh] bg-no-repeat bg-cover"
+    >
+      <div class="container px-10 lg:px-40">
+        <div class="flex justify-between py-8 lg:p-8 items-center">
+          <div class="z-20">
+            <a href="index.html"
+              ><img class="w-[120px]" src="/src/img/logo-light.png" alt=""
+            /></a>
+          </div>
+          <div class="z-10 lg:hidden">
+            <i class="bi bi-list text-white text-3xl"></i>
+          </div>
+          <nav class="z-20 hidden lg:block">
+            <ul class="flex gap-6 items-center">
+              <li><a class="text-white" href="">Home </a></li>
+              <li><a class="text-white" href=""> About</a></li>
+              <li><a class="text-white" href=""> Services</a></li>
+              <li><a class="text-white" href=""> Cars </a></li>
+              <li><a class="text-white" href=""> Pages </a></li>
+              <li><a class="text-white" href=""> Blog </a></li>
+              <li><a class="text-white" href=""> Contact</a></li>
+              <ul class="flex items-center gap-5">
+                <i
+                  class="bi bi-telephone py-3 px-4 hover:bg-[#F5B754] hover:text-black rounded-full border border-[#F5B754] text-xl text-white"
+                ></i>
+                <li>
+                  <h4 class="text-white text-sm">
+                    Need help? <br /><a class="text-white" href=""
+                      >855 100 4444</a
+                    >
+                  </h4>
+                </li>
+              </ul>
+            </ul>
+          </nav>
+        </div>
+        <div class="absolute text-white lg:top-1/3 lg:left-78 z-10">
+          <h3 class="text-[#FFB84B]">Premiun</h3>
+          <h2 class="text-5xl lg:text-8xl font-bold text-white py-4">
+            Rental Car
+          </h2>
+          <div class="flex gap-6">
+            <h3>Bently Bentyga</h3>
+            <h3><span class="text-[#FFB84B] font-bold">$600</span>/Day</h3>
+          </div>
+          <div class="flex gap-5">
+            <a
+              class="py-4 px-14 bg-[#FFB84B] inline-block rounded-full text-black mt-5 hover:bg-white hover:-translate-y-1 duration-[0.4s]"
+              href=""
+              >View details</a
+            >
+            <a
+              class="py-4 px-14 bg-transparent border border-white inline-block rounded-full text-white mt-5 hover:bg-[#FFB84B] hover:-translate-y-1 duration-[0.4s]"
+              href=""
+              >Rent Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0000008a] z-[-1]"
+      ></div>
+    </header>
+
+    <!-- about  -->
+    <section class="bg-[#1B1B1B] py-28">
+      <div class="container lg:px-40 px-10 py-24">
+        <div class="flex justify-between flex-wrap">
+          <div class="left lg:w-[49%] p-4 w-full">
+            <h4 class="text-[#F5B754]">RENTAX</h4>
+            <h3 class="text-4xl font-bold text-white py-3">
+              We Are More Than <br />
+              <span class="text-[#F5B754]">A Car Rental Company</span>
+            </h3>
+            <p class="text-[#D5C8C7] text-sm pb-8 leading-loose">
+              Car repair quisque sodales dui ut varius vestibulum drana tortor
+              turpis porttiton tellus eu euismod nisl massa nutodio in the miss
+              volume place urna lacinia eros nunta urna mauris vehicula rutrum
+              in the miss on volume interdum.
+            </p>
+
+            <h4 class="text-[#D5C8C7] text-sm">
+              <i
+                class="bi bi-check2 text-[#F5B754] bg-[#222222] rounded-full p-3"
+              ></i>
+              Sports and Luxury Cars
+            </h4>
+
+            <h4 class="text-[#D5C8C7] text-sm py-7">
+              <i
+                class="bi bi-check2 text-[#F5B754] bg-[#222222] rounded-full p-3"
+              ></i>
+              Economy Cars
+            </h4>
+            <a
+              class="py-4 px-14 bg-[#FFB84B] inline-block rounded-full text-black mt-5 hover:bg-white hover:-translate-y-1 duration-[0.4s]"
+              href=""
+              >Read More</a
+            >
+          </div>
+          <div class="right lg:w-[38%] relative w-full">
+            <div class="overflow-hidden rounded-xl box">
+              <img
+                class="rounded-xl img h-[500px] object-cover lg:h-full"
+                src="/src/img/about.jpg"
+                alt=""
+              />
+
+              <div
+                class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+              >
+                <i
+                  class="bi bi-caret-right border border-[#F5B754] rounded-full py-4 px-5 text-white hover:bg-[#F5B754] hover:text-black"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- rental  -->
+    <section
+      class="bg-car1 py-[120px] bg-fixed bg-cover bg-no-repeat relative bg-black"
+    >
+    <div
+    class="before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0000008a] z-0"
+  ></div>
+     
+      <div class="container lg:px-40 px-10 z-[1000] relative">
+        <div class="py-5 text-center ">
+          <h4 class="text-[#F5B754]">RENT NOW</h4>
+          <h2 class="font-bold text-white text-3xl py-5">Book Auto Rental</h2>
+        </div>
+        <div class="bg-black rounded-lg lg:rounded-full bg-covery z-[1000]">
+          <ul class="flex flex-wrap justify-between py-8 px-5 items-center">
+            <li class=""><a class="text-white" href="">Choose Car Type</a></li>
+            <li class=""><a class="text-white" href="">Pick Up Location</a></li>
+            <li class=""><a class="text-white" href="">Pick Up date</a></li>
+            <li class="">
+              <a class="text-white" href="">Drop off location</a>
+            </li>
+            <li class=""><a class="text-white" href="">Return Date</a></li>
+            <li class="">
+              <a
+                class="inline-block py-4 px-14 bg-[#FFB84B] rounded-full text-black mt-5 hover:bg-[#ffff] "
+                href=""
+                >Rent Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+     
+    </section>
+
+
+    <!-- Rental Car Types  -->
+    <section class="bg-[#1B1B1B] py-20">
+      <div class="container px-40">
+        <div class="text-center">
+          <h4 class="text-[#F5B754] text-sm py-4">CATEGORIES</h4>
+          <h3 class="text-white text-3xl font-bold pb-4">
+            Rental <span class="text-[#F5B754]">Car Types</span>
+          </h3>
+        </div>
+
+        <div class="py-6 flex gap-5">
+          <div class="relative">
+            <div class="overflow-hidden rounded-xl box">
+              <img class="rounded-xl img" src="/src/img/02.jpg" alt="" />
+              <div
+                class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+              >
+                <i
+                  class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white hover:bg-[#F5B754] hover:text-black"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="overflow-hidden rounded-xl box">
+              <img class="rounded-xl img" src="/src/img/03.jpg" alt="" />
+              <div
+                class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+              >
+                <i
+                  class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white hover:bg-[#F5B754] hover:text-black"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="overflow-hidden rounded-xl box">
+              <img class="rounded-xl img" src="/src/img/04 (1).jpg" alt="" />
+              <div
+                class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+              >
+                <i
+                  class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white hover:bg-[#F5B754] hover:text-black"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- line divider  -->
+    <div class="bg-[#1B1B1B] w-[30px] h-[50px]   mx-auto  border-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti quasi nemo perspiciatis? Dolor quo in eligendi corrupti doloribus deserunt. Sint nesciunt placeat ea reprehenderit praesentium veritatis ratione doloribus dolorem. </div>
+
+    <!-- process  -->
+    <section class="bg-[#1B1B1B] py-20">
+      <div class="container px-40">
+        <div class="text-center">
+          <h4 class="text-[#F5B754] text-sm py-4">STEPS</h4>
+          <h3 class="text-white text-3xl font-bold pb-4">
+            Car Rental<span class="text-[#F5B754]"> Process</span>
+          </h3>
+        </div>
+        <div class="flex gap-7">
+          <div class="py-20 px-8 bg-[#222222] relative rounded-xl">
+            <h3 class="text-white font-bold text-2xl">Choose a Car</h3>
+            <p class="py-5 text-[#D5C8C7]">
+              View our range of cars, find your perfect car for the coming days.
+            </p>
+            <div
+              class="absolute bg-[#1B1B1B]bottom-0 left-0 p-6 rounded-tr-[40px]"
+            >
+              <i
+                class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white"
+              ></i>
+            </div>
+          </div>
+          <div class="py-20 px-8 bg-[#222222] relative rounded-xl">
+            <h3 class="text-white font-bold text-2xl">Choose a Car</h3>
+            <p class="py-5 text-[#D5C8C7]">
+              View our range of cars, find your perfect car for the coming days.
+            </p>
+            <div
+              class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+            >
+              <i
+                class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white"
+              ></i>
+            </div>
+          </div>
+          <div class="py-20 px-8 bg-[#222222] relative rounded-xl">
+            <h3 class="text-white font-bold text-2xl">Choose a Car</h3>
+            <p class="py-5 text-[#D5C8C7]">
+              View our range of cars, find your perfect car for the coming days.
+            </p>
+            <div
+              class="absolute bg-[#1B1B1B] bottom-0 left-0 p-6 rounded-tr-[40px]"
+            >
+              <i
+                class="bi bi-arrow-up-right border border-[#F5B754] rounded-full py-4 px-5 text-white"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <h3 class="text-[#D5C8C7] py-10 text-[15px]">
+            If you've never rented a car before, we'll guide you through the
+            process.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- promo  -->
+    <section class="bg-car2 py-[120px] bg-fixed bg-cover bg-no-repeat relative">
+      <div
+        class="before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0000008a] z-0"
+      ></div>
+
+      <div class="text-center z-30 relative">
+        <h4 class="text-[15px] text-[#F5B754]">EXPLORE</h4>
+        <h3 class="text-white text-3xl font-bold z-10">
+          Car <span class="text-[#F5B754]">Promo</span> Video
+        </h3>
+        <div class="pt-8 ">
+          <a class="inline-block hover:text-orange-400" href=""
+            ><i
+              class="bi bi-caret-right border-2 border-[#F5B754] rounded-full py-5 px-7 text-white text-4xl "
+            ></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials  -->
+    <section class="bg-[#1B1B1B] py-20">
+      <div class="container px-40">
+        <div class="text-center">
+          <h4 class="text-[#F5B754] text-sm py-4">Testimonials</h4>
+          <h3 class="text-white text-3xl font-bold pb-4">What Clients Say</h3>
+        </div>
+        <div class="flex gap-7">
+          <div class="py-4 px-8 bg-[#222222] relative rounded-xl">
+            <div
+              class="absolute right-0 top-0 bg-[#1B1B1B] p-4 rounded-bl-[40px]"
+            >
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+            </div>
+            <i class="bi bi-quote text-[#F5B754] text-[60px]"></i>
+
+            <p class="pb-20 text-[#D5C8C7]">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              reiciendis exercitationem fugit sequi laudantium accusamus
+            </p>
+            <div class="flex gap-5 items-center absolute bottom-0 left-0 pt-20">
+              <div class="bg-[#1B1B1B] p-3 rounded-tr-[40px]">
+                <div class="w-[60px] h-[60px] overflow-hidden">
+                  <img
+                    class="rounded-full w-full h-full object-cover"
+                    src="/src/img/6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 class="text-white">Emily Martin</h3>
+                <h6>Customer</h6>
+              </div>
+            </div>
+          </div>
+          <div class="py-4 px-8 bg-[#222222] relative rounded-xl">
+            <div
+              class="absolute right-0 top-0 bg-[#1B1B1B] p-4 rounded-bl-[40px]"
+            >
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+            </div>
+            <i class="bi bi-quote text-[#F5B754] text-[60px]"></i>
+
+            <p class="pb-20 text-[#D5C8C7]">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              reiciendis exercitationem fugit sequi laudantium accusamus
+            </p>
+            <div class="flex gap-5 items-center absolute bottom-0 left-0 pt-20">
+              <div class="bg-[#1B1B1B] p-3 rounded-tr-[40px]">
+                <div class="w-[60px] h-[60px] overflow-hidden">
+                  <img
+                    class="rounded-full w-full h-full object-cover"
+                    src="/src/img/6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 class="text-white">Emily Martin</h3>
+                <h6>Customer</h6>
+              </div>
+            </div>
+          </div>
+          <div class="py-4 px-8 bg-[#222222] relative rounded-xl">
+            <div
+              class="absolute right-0 top-0 bg-[#1B1B1B] p-4 rounded-bl-[40px]"
+            >
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+              <i class="bi bi-star-fill text-[#F5B754] text-[10px]"></i>
+            </div>
+            <i class="bi bi-quote text-[#F5B754] text-[60px]"></i>
+
+            <p class="pb-20 text-[#D5C8C7]">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              reiciendis exercitationem fugit sequi laudantium accusamus
+            </p>
+            <div class="flex gap-5 items-center absolute bottom-0 left-0 pt-20">
+              <div class="bg-[#1B1B1B] p-3 rounded-tr-[40px]">
+                <div class="w-[60px] h-[60px] overflow-hidden">
+                  <img
+                    class="rounded-full w-full h-full object-cover"
+                    src="/src/img/6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 class="text-white">Emily Martin</h3>
+                <h6>Customer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="bg-[#1B1B1B] py-20">
+      <div class="container px-40">
+        <div class="text-center">
+          <h4 class="text-[#F5B754] text-sm py-4">OUR BLOG</h4>
+          <h3 class="text-white text-3xl font-bold pb-4">
+            Latest <span class="text-[#F5B754]">News</span>
+          </h3>
+        </div>
+
+        <div class="flex gap-8">
+          <div class="overflow-hidden rounded-3xl box">
+            <img class="rounded-3xl img" src="/src/img/03 (1).jpg" alt="" />
+            <div
+              class="bg-[#222222] relative py-8 px-7 rounded-2xl w-[337px] -top-10 left-6"
+            >
+              <div class="flex gap-5 pb-6 text-[#D5C8C7]">
+                <h2 class="text-[12px]">Olivia D.</h2>
+                <h2 class="text-[12px]">5 comments</h2>
+              </div>
+              <h3 class="text-white text-2xl font-bold">
+                Documents required for car rental
+              </h3>
+              <div
+                class="absolute bg-[#F5B754] py-3 px-5 rounded-lg -top-5 hover:bg-white"
+              >
+                <h3 class="text-xs">29 Dec, 2024</h3>
+              </div>
+            </div>
+          </div>
+          <div class="overflow-hidden rounded-3xl box">
+            <img class="rounded-3xl img" src="/src/img/04.jpg" alt="" />
+            <div
+              class="bg-[#222222] relative py-8 px-7 rounded-2xl w-[337px] -top-10 left-6"
+            >
+              <div class="flex gap-5 pb-6 text-[#D5C8C7]">
+                <h2 class="text-[12px]">Olivia D.</h2>
+                <h2 class="text-[12px]">5 comments</h2>
+              </div>
+              <h3 class="text-white text-2xl font-bold">
+                Documents required for car rental
+              </h3>
+              <div
+                class="absolute bg-[#F5B754] py-3 px-5 rounded-lg -top-5 hover:bg-white"
+              >
+                <h3 class="text-xs">29 Dec, 2024</h3>
+              </div>
+            </div>
+          </div>
+          <div class="overflow-hidden rounded-3xl box">
+            <img class="rounded-3xl img" src="/src/img/05.jpg" alt="" />
+            <div
+              class="bg-[#222222] relative py-8 px-7 rounded-2xl w-[337px] -top-10 left-6"
+            >
+              <div class="flex gap-5 pb-6 text-[#D5C8C7]">
+                <h2 class="text-[12px]">Olivia D.</h2>
+                <h2 class="text-[12px]">5 comments</h2>
+              </div>
+              <h3 class="text-white text-2xl font-bold">
+                Documents required for car rental
+              </h3>
+              <div
+                class="absolute bg-[#F5B754] py-3 px-5 rounded-lg -top-5 hover:bg-white"
+              >
+                <h3 class="text-xs">29 Dec, 2024</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- interested in renting  -->
+    <section class="bg-car1 py-[120px] bg-no-repeat bg-cover bg-fixed relative">
+      <div
+        class="before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0000008a] z-0"
+      ></div>
+      <div class="container px-40 z-[1000] relative">
+        <div class="py-5 text-center">
+          <h4 class="text-[#F5B754] z-10">RENT YOUR CAR</h4>
+          <h2 class="font-bold text-white text-3xl py-5">
+            Interested in Renting?
+          </h2>
+          <div class="flex gap-5 text-center">
+            <a
+              class="py-4 px-14 bg-[#FFB84B] inline-block rounded-full text-black mt-5 hover:bg-white hover:-translate-y-1 duration-[0.4s]"
+              href=""
+              >View details</a
+            >
+            <a
+              class="py-4 px-14 bg-transparent border border-white inline-block rounded-full text-white mt-5 hover:bg-[#FFB84B] hover:-translate-y-1 duration-[0.4s]"
+              href=""
+              >Rent Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brands  -->
+    <section class="bg-[#222222]">
+      <div class="container px-40">
+        <div class="flex py-3">
+          <a href=""
+            ><img
+              class="w-[200px] grayscale-0 hover:grayscale"
+              src="/src/img/1.png"
+              alt=""
+          /></a>
+          <a href=""><img class="w-[200px]" src="/src/img/3.png" alt="" /></a>
+          <a href=""><img class="w-[200px]" src="/src/img/8.png" alt="" /></a>
+          <a href=""><img class="w-[200px]" src="/src/img/1.png" alt="" /></a>
+          <a href=""><img class="w-[200px]" src="/src/img/3.png" alt="" /></a>
+          <a href=""><img class="w-[200px]" src="/src/img/8.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer></footer> -->
+
+    <footer class="py-[50px] bg-[#1B1B1B]">
+      <div class="container px-40">
+        <!-- contact  -->
+        <div class="flex py-4 px-6 justify-between rounded-xl">
+          <div class="flex gap-5 items-center">
+            <i
+              class="bi bi-telephone py-4 px-5 bg-[#F5B754] rounded-full text-xl"
+            ></i>
+            <div>
+              <h3 class="text-white font-bold">Call us</h3>
+              <h3 class="text-white text-[12px]">+971 52-333-4444</h3>
+            </div>
+          </div>
+          <div class="flex gap-5 items-center">
+            <i
+              class="bi bi-telephone py-4 px-5 bg-[#F5B754] rounded-full text-xl"
+            ></i>
+            <div>
+              <h3 class="text-white font-bold">Write to us</h3>
+              <h3 class="text-white text-[12px]">info@renax.com</h3>
+            </div>
+          </div>
+          <div class="flex gap-5 items-center">
+            <i
+              class="bi bi-telephone py-4 px-5 bg-[#F5B754] rounded-full text-xl"
+            ></i>
+            <div>
+              <h3 class="text-white font-bold">Address</h3>
+              <h3 class="text-white text-[12px]">
+                Dubai, Water Tower, Office 123
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer  -->
+        <div class="flex py-20 gap-32 justify-between border-b-2">
+          <div class="w-[35%]">
+            <a href="index.html"
+              ><img class="w-[120px] pb-5" src="/src/img/logo-light.png" alt=""
+            /></a>
+            <p class="text-[#D5C8C7] leading-loose">
+              Rent a car imperdiet sapien porttito the bibenum ellentesue the
+              commodo erat nesuen.
+            </p>
+            <div class="flex pt-8 gap-3">
+              <a class="inline-block" href=""
+                ><i
+                  class="bi bi-whatsapp text-white border border-[#FFB84B] rounded-full px-3 py-2 hover:bg-[#FFB84B] hover:text-black"
+                ></i
+              ></a>
+              <a class="inline-block" href=""
+                ><i
+                  class="bi bi-youtube text-white border border-[#FFB84B] rounded-full px-3 py-2 hover:bg-[#FFB84B] hover:text-black"
+                ></i
+              ></a>
+              <a class="inline-block" href=""
+                ><i
+                  class="bi bi-facebook text-white border border-[#FFB84B] rounded-full px-3 py-2 hover:bg-[#FFB84B] hover:text-black"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="w-[20%]">
+            <h3 class="font-bold text-white pb-5 text-2xl">Quick Links</h3>
+            <ul class="leading-loose">
+              <li>
+                <a class="text-white hover:text-[#FFB84B]" href=""> About</a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FFB84B]" href=""> Cars</a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FFB84B]" href="">Car Types</a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FFB84B]" href=""> Team</a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FFB84B]" href=""> Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-[35%]">
+            <h3 class="font-bold text-white pb-5 text-2xl">Subscribe</h3>
+            <p class="text-[#D5C8C7] leading-loose">
+              Want to be notified about our services. Just sign up and we'll
+              send you a notification by email.
+            </p>
+            <form action="">
+              <input
+                class="mt-4 py-3 px-4 w-full rounded-3xl border border-[#FFB84B] bg-transparent"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </form>
+          </div>
+        </div>
+
+        <!-- copyright  -->
+        <h6 class="text-[#D5C8C7] text-[12px] pt-[36px]">
+          ©2024
+          <a class="text-white border-b-2 border-[#FFB84B] pb-[5px]" href=""
+            >DuruThemes.</a
+          >
+          All rights reserved.
+        </h6>
+      </div>
+    </footer>
+  </body>
+</html>
